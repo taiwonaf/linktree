@@ -1,0 +1,9 @@
+.socials {
+    padding: 0 16px;
+}
+.socials-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px 0;
+}

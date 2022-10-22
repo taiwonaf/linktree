@@ -29,3 +29,9 @@ footer {
 .footer-wrapper img {
     height: 100%;
 }
+
+@media (max-width: 765px) {
+    .footer-wrapper {
+        flex-direction: row;
+    }
+}
