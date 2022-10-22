@@ -1,0 +1,21 @@
+a.button {
+    display: inline-block;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #EAECF0;
+    border-radius: 8px;
+    color: #101828;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    a.button {
+        height: 68px;
+        font-size: 14px;
+    }
+}
