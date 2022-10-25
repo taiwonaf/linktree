@@ -8,29 +8,25 @@ const Links = () => {
             url: 'https://twitter.com/tee_script'
         },
         {
-            name: 'Twitter Link',
+            name: 'Zuri Team',
+            url: 'https://training.zuri.team/'
+        },
+        {
+            name: 'Zuri Books',
             url: 'https://twitter.com/tee_script'
         },
         {
-            name: 'Twitter Link',
-            url: 'https://twitter.com/tee_script'
+            name: 'Python Books',
+            url: 'https://books.zuri.team/'
         },
         {
-            name: 'Twitter Link',
-            url: 'https://twitter.com/tee_script'
+            name: 'Background Check for Coders',
+            url: 'https://background.zuri.team/'
         },
         {
-            name: 'Twitter Link',
-            url: 'https://twitter.com/tee_script'
-        },
-        {
-            name: 'Twitter Link',
-            url: 'https://twitter.com/tee_script'
-        },
-        {
-            name: 'Twitter Link',
-            url: 'https://twitter.com/tee_script'
-        },
+            name: 'Design Books',
+            url: 'https://books.zuri.team/design-rules'
+        }
     ]   
   return (
     <div className="links">
