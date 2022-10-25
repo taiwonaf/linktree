@@ -10,7 +10,7 @@ const Profile = () => {
                 <img src="/images/options.png" alt="" />
             </div>
             <div className="profile-img">
-                <img src="/images/profile__img.png" alt="" />
+                <img src="/images/profile__img.png" id="profile_id" alt="" />
                 <div className="hover">
                     <img src="/images/camera.svg" alt="" />
                 </div>

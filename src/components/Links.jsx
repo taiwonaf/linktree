@@ -5,11 +5,14 @@ const Links = () => {
     const items = [
         {
             name: 'Twitter Link',
-            url: 'https://twitter.com/tee_script'
+            url: 'https://twitter.com/tee_script',
+            id: 'twitter'
         },
         {
             name: 'Zuri Team',
-            url: 'https://training.zuri.team/'
+            url: 'https://training.zuri.team/',
+            id: 'button_zuri',
+            alt: 'This is where you find books about design and coding'
         },
         {
             name: 'Zuri Books',

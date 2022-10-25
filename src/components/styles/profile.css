@@ -28,6 +28,7 @@
     /* background-color: red; */
     overflow: hidden;
     position: relative;
+    animation: pulse 1.2s infinite alternate;
 }
 
 .profile-img .hover {
@@ -76,6 +77,11 @@
     border: 2px solid #D0D5DD;
     border-style: dotted;
 }
+
+.share:hover {
+    animation: smallPulse 1s infinite alternate;
+}
+
 .options {
     width: 40px;
     height: 40px;
@@ -90,6 +96,30 @@
     right: 200px;
     border: 2px solid #D0D5DD;
     border-style: dotted;
+}
+
+.options:hover {
+    animation: smallPulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #EBE9FE;
+    }
+    
+    100% {
+        box-shadow: 0 0 0 8px #EBE9FE;
+    }
+}
+
+@keyframes smallPulse {
+    0% {
+        box-shadow: 0 0 0 0 #EBE9FE;
+    }
+
+    100% {
+        box-shadow: 0 0 0 3px #EBE9FE;
+    }
 }
 
 @media (max-width: 765px) {
