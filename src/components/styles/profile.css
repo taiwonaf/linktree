@@ -27,6 +27,27 @@
     border-radius: 88px;
     /* background-color: red; */
     overflow: hidden;
+    position: relative;
+}
+
+.profile-img .hover {
+    display: none;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(52, 64, 84, 0.75);
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.profile-img:hover .hover {
+    display: flex;
+}
+
+
+.profile-img .hover img {
+    margin-bottom: 8px;
+    height: 24px;
+    width: 24px;
 }
 
 .profile-img img {
@@ -55,9 +76,29 @@
     border: 2px solid #D0D5DD;
     border-style: dotted;
 }
+.options {
+    width: 40px;
+    height: 40px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    /* background-color: red; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0;
+    right: 200px;
+    border: 2px solid #D0D5DD;
+    border-style: dotted;
+}
 
 @media (max-width: 765px) {
     .share {
+        display: none;
+    }
+    
+    .options {
         right: -20px;
+        display: flex;
     }
 }
