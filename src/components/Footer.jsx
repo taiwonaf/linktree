@@ -13,7 +13,7 @@ const Footer = () => {
                 </p>
             </div>
             <div className="i4g">
-                <img src="/images/I4g.png" alt="" />
+                <img src="/images/I4G.png" alt="" />
             </div>
         </div>
     </footer>
