@@ -5,6 +5,7 @@ const Profile = () => {
         <div className="profile-wrapper">
             <div className="share">
                 <img src="/images/share.png" alt="" />
+                <span>Share Link</span>
             </div>
             <div className="options">
                 <img src="/images/options.png" alt="" />

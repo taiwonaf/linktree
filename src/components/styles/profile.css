@@ -76,10 +76,42 @@
     right: 200px;
     border: 2px solid #D0D5DD;
     border-style: dotted;
+    animation: smallPulse 1s infinite alternate;
+}
+
+.share span {
+    display: none;
+    position: absolute;
+    right: 60px;
+    width: 85px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    background-color: #101828;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.share span::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    right: -9px;
+    border-radius: 1px;
+    top: 50%;
+    position: absolute;
+    background-color: #101828;
 }
 
 .share:hover {
-    animation: smallPulse 1s infinite alternate;
+    background-color: #F9FAFB;
+    animation: none;
+}
+
+.share:hover span {
+    display: flex;
 }
 
 .options {
@@ -96,10 +128,12 @@
     right: 200px;
     border: 2px solid #D0D5DD;
     border-style: dotted;
+    animation: smallPulse 1s infinite alternate;
 }
 
 .options:hover {
-    animation: smallPulse 1s infinite alternate;
+    background-color: #F9FAFB;
+    animation: none;
 }
 
 #slack {
@@ -108,21 +142,21 @@
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 #EBE9FE;
+        box-shadow: 0 0 0 0 #D0D5DD;
     }
     
     100% {
-        box-shadow: 0 0 0 8px #EBE9FE;
+        box-shadow: 0 0 0 8px #D0D5DD;
     }
 }
 
 @keyframes smallPulse {
     0% {
-        box-shadow: 0 0 0 0 #EBE9FE;
+        box-shadow: 0 0 0 0 #D0D5DD;
     }
 
     100% {
-        box-shadow: 0 0 0 3px #EBE9FE;
+        box-shadow: 0 0 0 3px #D0D5DD;
     }
 }
 
