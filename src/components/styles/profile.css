@@ -102,6 +102,10 @@
     animation: smallPulse 1s infinite alternate;
 }
 
+#slack {
+    display: none;
+}
+
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0 #EBE9FE;

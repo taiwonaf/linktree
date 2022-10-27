@@ -34,5 +34,10 @@ footer {
     .footer-wrapper {
         flex-direction: column;
         gap: 20px;
+        align-items: flex-start;
+    }
+
+    .footer-wrapper > div {
+        height: 24px;
     }
 }

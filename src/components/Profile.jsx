@@ -15,8 +15,11 @@ const Profile = () => {
                     <img src="/images/camera.svg" alt="" />
                 </div>
             </div>
-            <div className="profile-name">
-                Nafiu Taiwo
+            <div className="profile-name" id="twitter">
+                tee_script
+            </div>
+            <div className="slack-username" id='slack'>
+                taiwonaf
             </div>
         </div>
     </div>

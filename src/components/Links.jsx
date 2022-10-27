@@ -11,24 +11,28 @@ const Links = () => {
         {
             name: 'Zuri Team',
             url: 'https://training.zuri.team/',
-            id: 'button_zuri',
-            alt: 'This is where you find books about design and coding'
+            id: 'btn__zuri',
         },
         {
             name: 'Zuri Books',
-            url: 'https://twitter.com/tee_script'
+            url: 'http://books.zuri.team',
+            id: 'books',
+            alt: 'This is where you find books about design and coding'
         },
         {
             name: 'Python Books',
-            url: 'https://books.zuri.team/'
+            url: 'https://books.zuri.team/python-for-beginners?ref_id=taiwonaf',
+            id: 'book_python'
         },
         {
             name: 'Background Check for Coders',
-            url: 'https://background.zuri.team/'
+            url: 'https://background.zuri.team/',
+            id: 'pitch'
         },
         {
             name: 'Design Books',
-            url: 'https://books.zuri.team/design-rules'
+            url: 'https://books.zuri.team/design-rules',
+            id: 'book__design'
         }
     ]   
   return (
