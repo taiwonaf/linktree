@@ -1,0 +1,25 @@
+.contact {
+    padding: 64px 16px 66px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 720px;
+    width: 100%;
+}
+
+@media (min-width: 765px) {
+    .contact form .input-fields {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'f l' 'e e';
+        grid-column-gap: 20px;
+    }
+
+    .contact form .input-fields > :nth-child(3) {
+        grid-area: e;
+    }
+
+}

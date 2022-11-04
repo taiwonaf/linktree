@@ -1,6 +1,10 @@
 import React from 'react';
+import Checkbox from '../components/contact/Checkbox';
 import ContactHeader from '../components/contact/ContactHeader';
 import Input from '../components/contact/Input';
+import Message from '../components/contact/Message';
+import Submit from '../components/contact/Submit';
+import './styles/contact.css';
 
 const Contact = () => {
     const inputFields = [
@@ -28,14 +32,23 @@ const Contact = () => {
     ]
   return (
     <div className='contact'>
-        <ContactHeader />
-        {
-            inputFields.map((inputItem, index) => {
-                return (
-                <Input inputField={inputItem} key={index} />
-                )
-            })
-        }
+        <div className="wrapper">
+            <ContactHeader />
+            <form action="#">
+                <div className="input-fields">
+                    {
+                        inputFields.map((inputItem, index) => {
+                            return (
+                            <Input inputField={inputItem} key={index} />
+                            )
+                        })
+                    }
+                </div>
+                <Message />
+                <Checkbox />
+                <Submit />
+            </form>
+        </div>
     </div>
   )
 }

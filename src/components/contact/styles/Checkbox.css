@@ -1,0 +1,22 @@
+.checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.checkbox .check {
+    height: 20px;
+    width: 100%;
+    max-width: 20px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+}
+
+.checkbox p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #475467;
+}
