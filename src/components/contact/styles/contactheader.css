@@ -1,0 +1,19 @@
+.contact-heading {
+    margin-bottom:  48px;
+}
+.contact-heading h2 {
+    color: #101828;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+
+.contact-heading p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #475467;
+    font-style: normal;
+}
