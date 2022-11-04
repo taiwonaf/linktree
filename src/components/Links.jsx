@@ -38,6 +38,12 @@ const Links = () => {
             url: 'https://books.zuri.team/design-rules',
             id: 'book__design',
             alt: 'Get your free design book offered by Zuri Team'
+        },
+        {
+            name: 'Contact me',
+            url:'/contact',
+            id: 'contact',
+            alt: 'contact page'
         }
     ]   
   return (
