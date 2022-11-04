@@ -21,6 +21,7 @@
     padding: 10px 14px;
     height: 44px;
     border-radius: 8px;
+    outline-color: #84CAFF;
 }
 
 .form-input input::placeholder {

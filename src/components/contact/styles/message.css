@@ -21,6 +21,22 @@
     padding: 10px 14px;
     height: 132px;
     border-radius: 8px;
+    outline-color: #84CAFF;    
+    animation: smallPulse 1.2s infinite alternate;
+}
+
+.form-input textarea:active {
+    animation: none;
+}
+
+@keyframes smallPulse {
+    0% {
+        box-shadow: 0 0 0 0 #84caff81;
+    }
+
+    100% {
+        box-shadow: 0 0 0 3px #84caff8f;
+    }
 }
 
 .form-input textarea::placeholder {

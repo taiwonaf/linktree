@@ -14,4 +14,20 @@
     color: white;
     font-weight: 600;
     font-size: 16px;
+    animation: smallPulse 1.2s infinite alternate;
 }
+
+@keyframes smallPulse {
+    0% {
+        box-shadow: 0 0 0 0 #84caff81;
+    }
+
+    100% {
+        box-shadow: 0 0 0 3px #84caff8f;
+    }
+}
+
+.form-input button:hover {
+    background-color: #175CD3;
+}
+
