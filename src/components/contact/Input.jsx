@@ -5,7 +5,7 @@ const Input = ({inputField}) => {
   return (
     <div className='form-input'>
         <label htmlFor={forItem}>{label}</label>
-        <input type={type} placeholder={holder}/>
+        <input type={type} placeholder={holder} id={id}/>
     </div>
   )
 }
